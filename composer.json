@@ -1,5 +1,6 @@
 {
   "name": "rebuy/ean-isbn-library",
+  "description": "A PHP library for EAN and ISBN validation and conversion",
   "version": "1.0.0",
   "license": "MIT",
   "keywords": ["ean", "isbn", "validation", "conversion", "parser", "parsing"],
