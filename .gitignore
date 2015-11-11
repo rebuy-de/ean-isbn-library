@@ -1,0 +1,4 @@
+/vendor
+/docs/vendor
+.idea
+.*.swp

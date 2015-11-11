@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpdoc>
+    <parser>
+        <target>data/output</target>
+        <visibility>public</visibility>
+    </parser>
+    <transformer>
+        <target>data/output</target>
+    </transformer>
+    <files>
+        <directory>src</directory>
+        <ignore>src/Internal/*</ignore>
+    </files>
+    <transformations>
+        <template name="xml"/>
+    </transformations>
+</phpdoc>

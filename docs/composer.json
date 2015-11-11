@@ -1,0 +1,5 @@
+{
+  "require-dev": {
+    "evert/phpdoc-md": "0.1.*"
+  }
+}
