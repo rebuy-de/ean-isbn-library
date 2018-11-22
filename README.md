@@ -9,7 +9,7 @@ To use the library you need PHP 5.6 and [Composer](https://getcomposer.org/).
 Add the following entry to your `composer.json`.
 
 ```shell
-composer require rebuy-de/ean-isbn-library
+composer require rebuy/ean-isbn-library
 ```
 
 ## Usage
