@@ -10,17 +10,6 @@
       "homepage": "https://github.com/rebuy-de/ean-isbn-library/contributors"
     }
   ],
-  "repositories": [
-    {
-      "type": "composer",
-      "url": "https://composer.dc1.rebuy",
-      "options": {
-        "ssl": {
-          "allow_self_signed": true
-        }
-      }
-    }
-  ],
   "autoload": {
     "psr-4": {
       "Rebuy\\EanIsbn\\": ["src/"]
