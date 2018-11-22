@@ -2,7 +2,7 @@ For us to accept contributions the addition has to be a reasonable implementatio
 
 Implementations of new functionality require all unit tests to run without failures
 as well as unit tests covering your functionality.
-To run unit tests execute `vendor/bin/phpunit tests/` from the project's root directory.
+To run unit tests execute `vendor/bin/phpunit` from the project's root directory.
 
 Before opening a pull request have a look at [existing issues](https://github.com/rebuy-de/ean-isbn-library/issues)
 to see if the topic is already covered.
