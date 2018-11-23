@@ -8,12 +8,8 @@ licensed under the [MIT license](LICENSE.md).
 To use the library you need PHP 5.6 and [Composer](https://getcomposer.org/).
 Add the following entry to your `composer.json`.
 
-```json
-{
-    "require": {
-        "rebuy-de/ean-isbn-library": "~1.0"
-    }
-}
+```shell
+composer require rebuy/ean-isbn-library
 ```
 
 ## Usage
