@@ -11,7 +11,7 @@ use Rebuy\EanIsbn\Internal\Isbn10ChecksumCalculator;
 
 class Isbn10Converter extends AbstractConverter
 {
-    public function __construct(ChecksumCalculatorInterface $checksumCalculator = null)
+    public function __construct(?ChecksumCalculatorInterface $checksumCalculator = null)
     {
         parent::__construct($checksumCalculator ?: new Isbn10ChecksumCalculator());
     }
