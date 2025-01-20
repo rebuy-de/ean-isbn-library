@@ -18,7 +18,7 @@ abstract class AbstractConverter implements ConverterInterface
     /**
      * @param ChecksumCalculatorInterface $checksumCalculator
      */
-    public function __construct(ChecksumCalculatorInterface $checksumCalculator = null)
+    public function __construct(?ChecksumCalculatorInterface $checksumCalculator = null)
     {
         $this->checksumCalculator = $checksumCalculator;
     }

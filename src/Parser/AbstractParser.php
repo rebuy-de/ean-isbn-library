@@ -15,7 +15,7 @@ abstract class AbstractParser implements ParserInterface
     /**
      * @param ChecksumCalculatorInterface $checksumCalculator
      */
-    public function __construct(ChecksumCalculatorInterface $checksumCalculator = null)
+    public function __construct(?ChecksumCalculatorInterface $checksumCalculator = null)
     {
         $this->checksumCalculator = $checksumCalculator;
     }

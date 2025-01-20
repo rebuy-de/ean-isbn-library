@@ -8,7 +8,7 @@ use Rebuy\EanIsbn\Internal\Ean13ChecksumCalculator;
 
 class Ean13Parser extends AbstractParser
 {
-    public function __construct(ChecksumCalculatorInterface $checksumCalculator = null)
+    public function __construct(?ChecksumCalculatorInterface $checksumCalculator = null)
     {
         parent::__construct($checksumCalculator ?: new Ean13ChecksumCalculator());
     }

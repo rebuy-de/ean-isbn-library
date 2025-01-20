@@ -5,7 +5,7 @@ licensed under the [MIT license](LICENSE.md).
 
 ## Installation
 
-To use the library you need PHP 5.6 and [Composer](https://getcomposer.org/).
+To use the library you need PHP 7.1 and [Composer](https://getcomposer.org/).
 Add the following entry to your `composer.json`.
 
 ```shell

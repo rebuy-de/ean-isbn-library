@@ -14,7 +14,7 @@ class Parser implements ParserInterface
     /**
      * @param ParserInterface[] $parsers
      */
-    public function __construct(array $parsers = null)
+    public function __construct(?array $parsers = null)
     {
         $this->parsers = $parsers ?: [
             new Ean8Parser(),

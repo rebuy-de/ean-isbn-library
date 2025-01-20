@@ -18,7 +18,7 @@ class Converter extends AbstractConverter
     /**
      * @param ConverterInterface[][] $converterMap
      */
-    public function __construct(array $converterMap = null)
+    public function __construct(?array $converterMap = null)
     {
         parent::__construct();
 

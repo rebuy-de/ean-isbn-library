@@ -10,7 +10,7 @@ class Ean8Parser extends AbstractParser
 {
     private static $ean8ToEan13Prefix = '00000';
 
-    public function __construct(ChecksumCalculatorInterface $checksumCalculator = null)
+    public function __construct(?ChecksumCalculatorInterface $checksumCalculator = null)
     {
         parent::__construct($checksumCalculator ?: new Ean13ChecksumCalculator());
     }
